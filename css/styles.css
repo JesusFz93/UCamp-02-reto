@@ -3,13 +3,17 @@
   padding: 0px;
 }
 
-.seccion1 {
-  background-image: url("../assets/images/wall2.png");
+.bg {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  background-size: cover;
+}
 
-  width: 1920px;
+.seccion1 {
+  background-image: url("../assets/images/wall2.png");
+  
+  width: 100vw;
   height: 100vh;
 
   display: flex;
@@ -22,10 +26,10 @@
   width: auto;
   height: 60px;
   text-align: center;
-  padding: 30px;
+  padding: 30px 30px 20px 30px;
 }
 
-.seccion1-p {
+.seccion1 article h2 {
   color: white;
   font-size: 40px;
 }
@@ -42,11 +46,8 @@
 
 .seccion3 {
   background-image: url("../assets/images/wall1.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
 
-  width: 1920px;
+  width: 100vw;
   height: 50vh;
 
   display: flex;
@@ -61,7 +62,4 @@
 
 .seccion5 {
   background-image: url("../assets/images/wall3.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
 }
